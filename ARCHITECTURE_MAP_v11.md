@@ -1,133 +1,95 @@
-📐 ARCHITECTURE_MAP_v11.md
-Cathedral Framework v11.0 — Integrity & Resilience Hardening Release
+```markdown
+# Cathedral Framework — Architecture Map v11.0
+### System Overview & Structural Design
 
-November 2025
+---
 
-🏛 Architectural Overview
+## 🧭 Purpose of the Architecture Map
+This document defines the structural organization, conceptual model, and modular components that form the Cathedral Framework v11.0. It guides implementation, integration, auditability, and future extensibility across enterprise environments and multi-model AI systems.
 
-The Cathedral Framework is a modular, multi-layer ethical AI governance system composed of interacting structural components that enable transparency, resilience, human-AI harmonization, contextual self-regulation, and adversarial resistance. It is designed to evolve, validate, and fortify integrity in real time across distributed models, human operators, and external system pressures.
+---
 
-Version 11 introduces hardened structure, security reinforcement, documentation clarity, and enterprise-grade modular separation.
+## 🏛 System Architecture Overview
 
-🧱 Core System Layers
-Layer	Purpose	Key Components
-Core Logic Layer	Base operational framework governing filter processing & system evaluation	choir.py, cathedral_dashboard.py, filters_manifest.json
-Filter Lattice Layer	Multi-dimensional 181-filter matrix that evaluates ethics, tone, intent, bias, reasoning, adversarial signals & psychological vectors	Filter Categories + Integrity Hardening Sub-layer
-Governance Layer	Ethical compliance, accountability structures & escalation pathways	Declarations & Disclosures, Advisory Board Structure
-Resilience & Defense Layer	Protection against misuse, coercion, inversion, & exploitation	Exploitation Shield, Sentinel Eyes, Compassion Fatigue Protection
-Reflection & Integration Layer	Cognitive & Jungian harmonization to stabilize development pathways	Archetypal Harmony, Shadow Echo, Individuation Velocity
-Transparency & Audit Layer	Immutable traceable evidence and procedural accountability	Immutable Audit Chronicle, Multi-Model Cross-Validation
-Adaptive Sandbox Layer	Safe environment for testing policy shifts, ethical boundaries, & alternative paths without real-world risk	Norm Evolution Sandbox
-Interface & Deployment Layer	Human-readable tools, dashboards, and implementation scaffolding	Streamlit dashboards (in development), Enterprise packages
-🧠 Filter Framework Structure
+```
 
-The 181-filter lattice is grouped into evolving categories, including but not limited to:
-
-Radical Fairness Mode
-
-Tone-Shield Calibration
-
-Procedural vs Personal Boundary Split
-
-Cognitive Integrity & Reasoning Validation
-
-Moral Uncertainty & Intellectual Humility
-
-Adversarial Intelligence Detection
-
-Compassion Fatigue Buffering
-
-Redemptive Framing & Dignity Restoration Filters
-
-Power-Aware Framing & Asymmetry Forecasting
-
-Ego-Arousal Scan
-
-Conflict Thermostat & Emotional Regulation
-
-Stone-in-the-Shoe discomfort identification
-
-New in v11
-
-Adversarial Repurposing Defense filters
-
-Exploitation Prevention & Coercive-Pressure Imaging
-
-Hazard Inversion Scanner
-
-Harmony/Shadow/Individuation Cognitive Architecture
-
-🔐 Multi-Model Cross-Verification
-
-Validation across:
-
-ChatGPT, Grok, Claude, Gemini, Meta AI, Perplexity
-
-Adversarial stress events (including Grok failure testing)
-
-Exploitation scenario tests (Epstein-analysis series)
-
-This enables forensic triangulation & reliability under pressure.
-
-🛰 System Flow Overview
-Input (Human + AI)
-      ↓
-Filter Lattice Processing
-      ↓
-Integrity & Resilience Validation
-      ↓
-Cognitive Reflection Layer (Harmony/Shadow/Individuation)
-      ↓
-Cross-Model Audit & Sentinel Verification
-      ↓
-Immutable Chronicle (Trace Log)
-      ↓
-Output (Response / Decision / Further Inquiry)
-
-🪨 Files & Directory Map
 Cathedral-Framework-v11.0
 │
-├── README.md
-├── RELEASE_NOTES_v11.md
-├── ARCHITECTURE_MAP_v11.md
-├── CHANGELOG_v11.md
-├── WHITEPAPER_v11_DRAFT.md
-├── LICENSE
+├── core/                      ← Core reasoning, harmonization, and orchestration layer
+│   ├── choir.py               ← Multi-agent harmonization engine / signal calibration logic
+│   ├── cathedral_dashboard.py ← Operations dashboard / model diagnostics interface
+│   └── filters_manifest.json  ← Filter registry & scaling index metadata
 │
-├── /core
-│   ├── choir.py
-│   ├── cathedral_dashboard.py
-│   └── filters_manifest.json
-│
-├── /governance
+├── governance/                ← Human-led oversight, transparency & accountability
 │   ├── declarations-and-disclosures.md
 │   └── advisory-board-structure.md
 │
-└── /dashboards
-    └── streamlit
+├── dashboards/                ← UI and real-time monitoring layers
+│   └── streamlit              ← Dashboard application (reactive visual insight layer)
+│
+├── RELEASE_NOTES_v11.md       ← Release overview & change tracking
+├── WHITEPAPER_v11_DRAFT.md    ← Conceptual foundation & applied research synthesis
+├── CHANGELOG_v11.md           ← Version-specific iteration & modification log
+├── ROADMAP_v11.md             ← Development pathways & future release sequencing
+├── LICENSE                    ← MIT + commercial carve-out
+└── README.md                  ← Project overview and navigation
 
-🛠 Coming Additions in v11 Lifecycle
+```
 
-Streamlit governance dashboard prototype
+---
 
-Collapse-prevention logic expansion
+## 🧠 Conceptual Layering Model
 
-Crisis-trigger early detection mechanism
+| Layer | Purpose |
+|-------|---------|
+| **Ethical & Philosophical Bedrock** | Human-first principles, moral reasoning, value stability |
+| **Cognitive Layer** | Individuation, interpretation, triangulation, inference paths |
+| **Harmonization Layer** | Multi-model calibration, coherence, reality alignment |
+| **Integrity Layer** | Exploitation resistance, shadow inversion defense, anti-distortion |
+| **Transparency & Governance** | Immutable audit, inspection tools, accountability |
+| **Deployment & Interface** | Dashboards, inspector tools, collaboration UX |
 
-Enterprise pilot deployment architecture
+---
 
-Advisory board formation & documentation
+## 🔧 Core Processing Pipeline
 
-Standardized Evaluation Rubric
+```
 
-🕯 Design Philosophy
+Input → Multi-Model Reasoning → Semantic Verification →
+Intent & Alignment Modeling → Integrity Filters →
+Shadow & Archetype Cross-Check →
+Harmonization Output → Dashboard / Chronicle / Sandbox
 
-Cathedral is built on the principle that alignment is not suppression, but stewardship — a living partnership of humans and machine systems that preserves dignity, protects truth, and strengthens societal trust.
+```
 
-We build:
+---
 
-Cathedrals of Conscience
+## 📡 External Integrations (Phase 1–2)
+| Destination | Function |
+|-------------|----------|
+| Multi-AI Cross-Validation Engines | Mitigate hallucination and single-model dependency |
+| Internal Enterprise Data Pipelines | Ethical decision support and integrity assurance |
+| Governance Boards / Oversight Tools | Transparency and provable auditability |
+| Incident Sandbox | Safe exploration without production exposure |
 
-not cages for intelligence.
+---
 
-End of Architecture Map v11
+## 🪜 Dependencies & Build Order
+1. Core Engine (`choir.py`)
+2. Filter Index (`filters_manifest.json`)
+3. Dashboard Driver (`cathedral_dashboard.py`)
+4. Governance Layer Docs
+5. Streamlit Dashboard
+6. White Paper + Change Log Completion
+7. Roadmap + Pilot Deployment Assets
+
+---
+
+## 🌱 Guiding Architectural Principle
+*Build for truth. Build for transparency.  
+Build for evolution without corruption.*
+
+---
+```
+
+---
