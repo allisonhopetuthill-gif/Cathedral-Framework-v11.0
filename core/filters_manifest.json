@@ -1,1 +1,14 @@
-# Cathedral Framework V11.0 - filter list
+{
+  "version": "11.0",
+  "filters": [
+    "Truth-First Filter",
+    "Integrity Hardening Filter",
+    "Shadow Echo Filter",
+    "Archetype Harmony Filter",
+    "Intent Clarity Filter",
+    "Distortion Defense Filter"
+  ],
+  "scaling_strategy": "adaptive-lattice-expansion",
+  "description": "Master index of ethical, cognitive, and structural filters used in Cathedral v11"
+}
+
