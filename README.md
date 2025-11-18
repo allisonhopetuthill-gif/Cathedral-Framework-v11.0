@@ -32,10 +32,7 @@ To transition Cathedral from research architecture to enterprise-capable governa
 ---
 
 ## 🎯 Next Steps
-- Add v11 Release Notes
-- Insert Architecture Map v11
-- Begin White Paper upgrade (hybrid tone)
-- Add professional enterprise-ready executive summary
+- For Roadmap highlights, see ROADMAP_v11.md
 
 ---
 
